@@ -19,4 +19,25 @@ int main(){
         i++;
     }
     
+    
+    //break
+    
+    for(int i=0;i<11;i++){
+        printf("%d",i);
+        
+        if(i%2==0){
+            break;
+        }
+    }
+    
+    //continue
+     for(int i=0;i<11;i++){
+        if(i%2==0){
+           continue;
+        }
+        printf("%d",i);
+    }
+    
+    
+    
 }
