@@ -31,7 +31,7 @@ case 7:
     break;
 
 default:
-    printf("invalid option");
+    printf("invalid optin");
     break;
 }
 
