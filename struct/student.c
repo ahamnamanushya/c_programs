@@ -23,13 +23,7 @@ int main() {
 
     printf("name\troolno\tmarks\n");
     for (i = 0; i < 5; ++i) {
-
         printf("%s\t%d\t%f\n",s[i].firstName,i+1, s[i].marks);
-        // printf("%d\n", i + 1);
-        // printf("First name: ");
-        // puts(s[i].firstName);
-        // printf("Marks: %.1f", s[i].marks);
-        // printf("\n");
     }
     return 0;
 }
